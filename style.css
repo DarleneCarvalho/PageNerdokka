@@ -1,0 +1,91 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0d0d0d;
+  color: #fff;
+}
+
+header {
+  background: linear-gradient(to right, #6c00ff, #3a0ca3);
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.produto {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  max-width: 900px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imagem-produto img {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #3a0ca3;
+}
+
+.info-produto {
+  max-width: 400px;
+}
+
+.info-produto h2 {
+  font-size: 1.8rem;
+  color: #a78bfa;
+  margin-bottom: 10px;
+}
+
+.info-produto p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.preco {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #7f5af0;
+}
+
+.botao-comprar {
+  display: inline-block;
+  background: #7f5af0;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 15px 0;
+  transition: background 0.3s;
+}
+
+.botao-comprar:hover {
+  background: #6243e4;
+}
+
+.beneficios li {
+  margin: 5px 0;
+  list-style: none;
+}
+
+footer {
+  background: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+}
